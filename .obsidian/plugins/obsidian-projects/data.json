@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Want to research",
+            "Researching",
+            "Ready to present",
+            "Presented (at least once)"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Topics",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7cf00644-d24a-4e6c-a838-bd141c1e056c",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "83b24844-d2fa-4a2a-832e-1d09f367a7a8",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "bcf1bbf2-29cb-462e-a6c3-4c41bb847eba",
+      "name": "Topics"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
